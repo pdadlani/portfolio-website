@@ -220,6 +220,10 @@ input, select, textarea {
 		padding: 0.5em 0 0.5em 1.5em;
 	}
 
+	.profile_pic {
+		border-radius: 50%;
+	}
+
 	code {
 		background: rgba(144, 144, 144, 0.075);
 		font-family: "Courier New", monospace;
@@ -2190,7 +2194,7 @@ input, select, textarea {
 			.icon.major:before {
 				font-size: 2.5em;
 				font-weight: 900;
-				font-family: 'Font Awesome 5 Free';
+				/* font-family: 'Font Awesome 5 Free'; */
 			}
 
 /* Image */
@@ -2292,7 +2296,7 @@ input, select, textarea {
 	ul.icons {
 		cursor: default;
 		list-style: none;
-		padding-left: 0;
+		padding-left: 100;
 	}
 
 		ul.icons li {
